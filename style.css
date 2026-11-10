@@ -421,3 +421,59 @@ button:disabled {
     }
 }
 
+/* TERCEIRA PÁGINA: POEMA */
+
+.papel-poema {
+    background: #fffaff;
+    padding: 30px 24px;
+    min-height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-poema {
+    color: #c17da8;
+    font-size: 19px;
+    margin: 15px 0 22px;
+}
+
+.texto-poema {
+    color: #76508c;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.texto-poema p {
+    margin: 0 0 15px;
+}
+
+.assinatura-poema {
+    color: #c17da8;
+    font-size: 14px;
+    font-style: italic;
+    margin: 12px 0;
+    align-self: flex-end;
+}
+
+.papel-poema .decoracao {
+    color: #d99cbe;
+    font-size: 19px;
+}
+
+@media (max-width: 400px) {
+    .papel-poema {
+        padding: 25px 16px;
+    }
+
+    .texto-poema {
+        font-size: 12px;
+    }
+
+    .titulo-poema {
+        font-size: 17px;
+    }
+}
+		
