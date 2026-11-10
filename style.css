@@ -477,3 +477,83 @@ button:disabled {
     }
 }
 		
+
+/* QUARTA PÁGINA: MUSEU DAS IDIOTICES */
+
+.papel-museu {
+    background: #fffaff;
+    padding: 25px 20px;
+    min-height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-museu {
+    color: #b56d9b;
+    text-align: center;
+    font-size: 19px;
+    margin: 12px 0 5px;
+}
+
+.subtitulo-museu {
+    color: #9565a8;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.reliquia {
+    width: 100%;
+    box-sizing: border-box;
+    background: #f8effb;
+    border: 1px solid #ead8f0;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px #60446d15;
+}
+
+.reliquia h3 {
+    color: #a45e8c;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 0 12px;
+}
+
+.reliquia img {
+    display: block;
+    width: 100%;
+    max-height: 380px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #eee3f2;
+}
+
+.reliquia p {
+    color: #76508c;
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 12px 3px 5px;
+}
+
+.assinatura-museu {
+    color: #c17da8;
+    font-size: 13px;
+    font-style: italic;
+    margin: 10px 0;
+    text-align: right;
+    align-self: flex-end;
+}
+
+@media (max-width: 400px) {
+    .papel-museu {
+        padding: 20px 13px;
+    }
+
+    .reliquia h3 {
+        font-size: 13px;
+    }
+}
+	
