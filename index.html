@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Um presente para você ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TELA DE BLOQUEIO -->
+
+    <section id="bloqueio" class="bloqueio">
+
+       <div class="papel bloqueio-papel">
+
+           <div class="decoracao">୨୧</div>
+
+           <h1>Opsss! ♡</h1>
+
+           <p class="mensagem-bloqueio">
+            Seu aniversário ainda não chegou :3
+           </p>
+
+           <p>Faltam:</p>
+
+           <div class="contador-aniversario">
+
+               <div class="tempo">
+                   <span id="dias">00</span>
+                   <small>Dias</small>
+               </div>
+
+               <div class="tempo">
+                   <span id="horas">00</span>
+                   <small>Horas</small>
+               </div>
+
+               <div class="tempo">
+                   <span id="minutos">00</span>
+                   <small>Minutos</small>
+               </div>
+
+           </div>
+
+           <p class="pequeno">
+               Volte quando chegar o seu dia ♡
+           </p>
+
+           <div class="decoracao">✧･ﾟ: *✧･ﾟ:*</div>
+
+       </div>
+
+   </section>
+
+    <div class="brilhos">✦ ✧ ♡ ✧ ✦</div>
+
+    <main class="livro">
+
+        <!-- CAPA DO LIVRO -->
+        <section class="pagina ativa">
+
+            <div class="papel capa">
+
+                <span class="etiqueta">
+                    um presente especial ♡
+                </span>
+
+                <h1>Um pequeno livro sobre você</h1>
+
+                <p>
+                    Algumas memórias, algumas palavras
+                    e um pouquinho de carinho.
+                </p>
+
+                <div class="decoracao">୨୧</div>
+
+                <!-- COLOQUE SUA IMAGEM AQUI ⬇️⬇️⬇️ -->
+                <img
+                    src="imagens/capa.png"
+                    alt="Uma lembrança especial"
+                    class="foto-capa"
+                >
+
+                <p class="pequeno">
+                    Feito especialmente para você.
+                </p>
+
+                <button id="abrir">
+                    Abrir meu presente ♡
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <nav class="navegacao">
+
+        <button id="anterior" disabled>‹</button>
+
+        <span id="contador">1 / 1</span>
+
+        <button id="proximo" disabled>›</button>
+
+    </nav>
+    <!-- PLAYER DE MÚSICA -->
+    <audio id="musica" loop preload="metadata">
+       <source src="musica/trilha.opus" type="audio/ogg; codecs=opus">
+    </audio>
+
+    <button id="controle-musica" class="player-musica">
+        ♫ Tocar música
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
