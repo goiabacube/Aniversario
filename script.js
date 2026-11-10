@@ -81,6 +81,8 @@ const aniversario = new Date(2026, 11, 8, 0, 0, 0);
 
 function atualizarContagem() {
 
+    bloqueio.style.display = "none";
+
     const agora = new Date();
 
     const diferenca = aniversario - agora;

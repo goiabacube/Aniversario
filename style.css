@@ -364,3 +364,60 @@ button:disabled {
     font-size: 12px;
 }
 
+
+/* PÁGINA DE CADERNO */
+.papel-caderno {
+    background:
+        linear-gradient(
+            to right,
+            transparent 34px,
+            #f3a4c5 35px,
+            transparent 37px
+        ),
+        repeating-linear-gradient(
+            to bottom,
+            #fffaff 0px,
+            #fffaff 31px,
+            #d9c9e8 32px,
+            #fffaff 33px
+        );
+
+    padding: 35px 20px 30px 48px;
+    min-height: 430px;
+    color: #76508c;
+}
+
+.titulo-caderno {
+    font-size: 19px;
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 15px;
+    color: #b56d9b;
+}
+
+.anotacoes p {
+    font-size: 14px;
+    line-height: 33px;
+    margin: 0;
+    min-height: 33px;
+}
+
+.assinatura-caderno {
+    text-align: right;
+    color: #c17da8;
+    font-size: 13px;
+    margin-top: 18px;
+    font-style: italic;
+}
+
+@media (max-width: 400px) {
+    .papel-caderno {
+        padding-left: 42px;
+        padding-right: 10px;
+    }
+
+    .anotacoes p {
+        font-size: 12px;
+    }
+}
+
