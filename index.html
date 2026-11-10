@@ -13,55 +13,54 @@
 <body>
 
     <!-- TELA DE BLOQUEIO -->
-
     <section id="bloqueio" class="bloqueio">
 
-       <div class="papel bloqueio-papel">
+        <div class="papel bloqueio-papel">
 
-           <div class="decoracao">୨୧</div>
+            <div class="decoracao">୨୧</div>
 
-           <h1>Opsss! ♡</h1>
+            <h1>Opsss! ♡</h1>
 
-           <p class="mensagem-bloqueio">
-            Seu aniversário ainda não chegou :3
-           </p>
+            <p class="mensagem-bloqueio">
+                Seu aniversário ainda não chegou :3
+            </p>
 
-           <p>Faltam:</p>
+            <p>Faltam:</p>
 
-           <div class="contador-aniversario">
+            <div class="contador-aniversario">
 
-               <div class="tempo">
-                   <span id="dias">00</span>
-                   <small>Dias</small>
-               </div>
+                <div class="tempo">
+                    <span id="dias">00</span>
+                    <small>Dias</small>
+                </div>
 
-               <div class="tempo">
-                   <span id="horas">00</span>
-                   <small>Horas</small>
-               </div>
+                <div class="tempo">
+                    <span id="horas">00</span>
+                    <small>Horas</small>
+                </div>
 
-               <div class="tempo">
-                   <span id="minutos">00</span>
-                   <small>Minutos</small>
-               </div>
+                <div class="tempo">
+                    <span id="minutos">00</span>
+                    <small>Minutos</small>
+                </div>
 
-           </div>
+            </div>
 
-           <p class="pequeno">
-               Volte quando chegar o seu dia ♡
-           </p>
+            <p class="pequeno">
+                Volte quando chegar o seu dia ♡
+            </p>
 
-           <div class="decoracao">✧･ﾟ: *✧･ﾟ:*</div>
+            <div class="decoracao">✧･ﾟ: *✧･ﾟ:*</div>
 
-       </div>
+        </div>
 
-   </section>
+    </section>
 
     <div class="brilhos">✦ ✧ ♡ ✧ ✦</div>
 
     <main class="livro">
-       
-        <!-- CAPA DO LIVRO -->
+
+        <!-- PRIMEIRA PÁGINA: CAPA -->
         <section class="pagina ativa">
 
             <div class="papel capa">
@@ -79,7 +78,6 @@
 
                 <div class="decoracao">୨୧</div>
 
-                <!-- COLOQUE SUA IMAGEM AQUI ⬇️⬇️⬇️ -->
                 <img
                     src="imagens/capa.png"
                     alt="Uma lembrança especial"
@@ -97,46 +95,57 @@
             </div>
 
         </section>
-           <section class="pagina">
-           <div class="papel papel-caderno">
 
-              <h2 class="titulo-caderno">Pequena descrição da aniversariante ♡</h2>
+        <!-- SEGUNDA PÁGINA: DESCRIÇÃO -->
+        <section class="pagina">
 
-              <div class="anotacoes">
-                 <p>୨୧ Adora calopsitas!</p>
-                 <p>୨୧ Adora K-pop e músicas tranquilas</p>
-                 <p>୨୧ FALA BASTANTE KKKKKK</p>
-                 <p>୨୧ Cor favorita: #FFC0CB (rosa bebê)</p>
-                 <p>୨୧ Adora jogar MM2 (e é muito boa nisso)</p>
-                 <p>୨୧ É amada demais por mim! (Goiaba) KKKKKKKKK</p>
-                 <p>୨୧ FARMA MUITA AURA!</p>
-              </div>
+            <div class="papel papel-caderno">
 
-              <div class="assinatura-caderno">Feito com carinho ♡</div>
+                <h2 class="titulo-caderno">
+                    Pequena descrição da aniversariante ♡
+                </h2>
 
-           </div>
-   </section>
+                <div class="anotacoes">
+                    <p>୨୧ Adora calopsitas!</p>
+                    <p>୨୧ Adora K-pop e músicas tranquilas</p>
+                    <p>୨୧ FALA BASTANTE KKKKKK</p>
+                    <p>୨୧ Cor favorita: #FFC0CB (rosa bebê)</p>
+                    <p>୨୧ Adora jogar MM2 (e é muito boa nisso)</p>
+                    <p>୨୧ É amada demais por mim! (Goiaba) KKKKKKKKK</p>
+                    <p>୨୧ FARMA MUITA AURA!</p>
+                </div>
 
+                <div class="assinatura-caderno">
+                    Feito com carinho ♡
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
 
-    <nav>class="navegacao">
+    <!-- NAVEGAÇÃO -->
+    <nav class="navegacao">
 
         <button id="anterior" disabled>‹</button>
 
-        <span id="contador">1 / 1</span>
+        <span id="contador">1 / 2</span>
 
-        <button id="proximo" disabled>›</button>
+        <button id="proximo">›</button>
 
     </nav>
+
     <!-- PLAYER DE MÚSICA -->
     <audio id="musica" loop preload="metadata">
-       <source src="musica/trilha.opus" type="audio/ogg; codecs=opus">
+        <source src="musica/trilha.opus" type="audio/ogg; codecs=opus">
     </audio>
 
     <button id="controle-musica" class="player-musica">
         ♫ Tocar música
     </button>
+
     <script src="script.js"></script>
+
 </body>
 </html>
