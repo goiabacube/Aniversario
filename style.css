@@ -638,3 +638,36 @@ button:disabled {
     margin-top: 25px;
 }
 
+.bloqueio {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eadcf2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bloqueio-papel {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+.contador-aniversario {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.tempo {
+    display: flex;
+    flex-direction: column;
+    background: #f8effb;
+    border-radius: 12px;
+    padding: 12px;
+    color: #a45e8c;
+}
