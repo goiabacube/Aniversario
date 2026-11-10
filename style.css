@@ -521,15 +521,6 @@ button:disabled {
     margin: 5px 0 12px;
 }
 
-.reliquia img {
-    display: block;
-    width: 100%;
-    max-height: 380px;
-    object-fit: contain;
-    border-radius: 8px;
-    background: #eee3f2;
-}
-
 
 .reliquia img {
     display: block;
