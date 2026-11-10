@@ -530,13 +530,20 @@ button:disabled {
     background: #eee3f2;
 }
 
-.reliquia p {
-    color: #76508c;
-    font-size: 13px;
-    line-height: 1.6;
-    text-align: center;
-    margin: 12px 3px 5px;
+
+.reliquia img {
+    display: block;
+    width: 75%;
+    max-width: 240px;
+    height: auto;
+    margin: 12px auto;
+    object-fit: contain;
+    border-radius: 10px;
+    background: #eee3f2;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 10px #60446d20;
 }
+
 
 .assinatura-museu {
     color: #c17da8;
